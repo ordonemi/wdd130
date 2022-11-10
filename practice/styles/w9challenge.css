@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+.image {
+    font-size: 0;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.box {
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+}
+.box h1 {
+    font-size: 12px;
+}
