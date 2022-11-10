@@ -24,7 +24,7 @@ nav a {
 }
 #hero-msg h1 {
     text-align: center;
-    color: #7C9885;
+    color: #033F63;
 }
 #hero-msg h4 {
     text-align: center;
@@ -203,11 +203,13 @@ nav {
 .rivers-title {
     font-family: "Permanent Marker", Impact, Rockwell, serif;
     font-size: 3em;
+    color: #033F63;
 }
 
 .salmon-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 50px;
 }
 
 #background1 {
