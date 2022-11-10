@@ -197,10 +197,135 @@ nav {
     grid-column: 6/10;
     grid-row: 6/7;
 }
+
+/* Rivers page css */
+
+.rivers-title {
+    font-family: "Permanent Marker", Impact, Rockwell, serif;
+    font-size: 3em;
+}
+
+.salmon-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#background1 {
+    height: 750px;
+    background-color: #28666E;
+    grid-column: 1/11;
+    grid-row: 1/10;
+}
+.salmon-river {
+    grid-column: 2/7;
+    grid-row: 3/6;
+}
+.salmon-river-msg {
+    background-color: #033F63;
+    line-height: 1.2em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 6/10;
+    grid-row: 3/6;
+}
+.salmon-heading {
+    color: white;
+    font-family: "Permanent Marker", Impact, Rockwell, serif;
+    grid-column: 1/11;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+.salmon-river-msg p {
+    color:white;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.gray-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 200px;
+}
+
+#background2 {
+    height: 750px;
+    background-color: #28666E;
+    grid-column: 1/11;
+    grid-row: 1/10;
+}
+.gray-canyon-img {
+    grid-column: 2/7;
+    grid-row: 3/6;
+    width: 750px;
+}
+.gray-heading {
+    color: white;
+    font-family: "Permanent Marker", Impact, Rockwell, serif;
+    grid-column: 1/11;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+.gray-canyon-msg {
+    background-color: #033F63;
+    line-height: 1.2em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 6/10;
+    grid-row: 3/6;
+    margin-left: -25px;
+}
+.gray-canyon-msg p {
+    color:white;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.grand-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 200px;
+}
+#background3 {
+    height: 750px;
+    background-color: #28666E;
+    grid-column: 1/11;
+    grid-row: 1/10;
+}
+.grand-canyon-img {
+    grid-column: 2/7;
+    grid-row: 3/6;
+    width: 800px;
+}
+.grand-heading {
+    color: white;
+    font-family: "Permanent Marker", Impact, Rockwell, serif;
+    grid-column: 1/11;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+.grand-canyon-msg {
+    background-color: #033F63;
+    line-height: 1.2em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 6/10;
+    grid-row: 3/6;
+}
+.grand-canyon-msg p {
+    color:white;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .salmon-grid, .grand-grid, .gray-grid {
         display: block;
         height: auto;
+    }
+    #background1, #background2, #background3 {
+        display: none;
     }
     nav, footer {
         flex-direction: column;
