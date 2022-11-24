@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Maven+Pro&display=swap');
+body {
+    background-color: white;
+    font-family: "Maven Pro", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#content {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* Nav menu and logo css */
+
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+nav a {
+    text-align: center;
+    color: #3c1518;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 30px;
+    font-family: Kanit, Georgia, serif;
+
+}
+
+nav {
+    background-color: #d58936;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #69140e;
+    color: #f2f3ae;
+}
+
+/* body css */
+
+.home-title {
+    font-family: Kanit, Georgia, serif;
+    text-align: center;
+    padding-top: 50px;
+    color: #3c1518
+}
+
+.top p {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2em;
+    font-size: 18px;
+    padding-bottom: 40px;
+    color: #69140e;
+}
+
+.top img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottom p {
+    text-align: center;
+    line-height: 2em;
+    font-size: 18px;
+    max-width: 500px;
+    align-self: center;
+    justify-self: right;
+    color: #69140e;
+}
+
+.bottom img {
+    justify-self: center; 
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d58936;
+    align-items: center;
+    margin-top: 100px;
+    font-family: Kanit, Georgia, serif;;
+}
+
+footer p {
+    font-size: 20px;
+    color: #3c1518;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+footer a:hover {
+    color: #f2f3ae;
+    background-color: #69140e;
+    text-decoration: underline;
+}
